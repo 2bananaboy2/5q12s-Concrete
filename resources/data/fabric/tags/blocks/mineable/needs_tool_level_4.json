@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "ccls_better_minecraft:cclsdarksteel",
+    "ccls_better_minecraft:cclsdarksteelstairs",
+    "ccls_better_minecraft:cclsdarksteelslab"
+  ]
+}

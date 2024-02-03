@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "concrete_5q12",
+  "version": "1.0",
+  "name": "5q12's Concrete",
+  "description": "An expansive Creative mod that adds hundreds of new concrete building blocks for more availability to your creativity when building.",
+  "authors": [
+    "5q12"
+  ],
+  "contact": {
+    "homepage": "https://info.ccls.app",
+    "sources": ""
+  },
+  "license": "Public Domain",
+  "icon": "assets/concrete_5q12/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mod5q12.concrete.Concrete5q12Mod"
+    ],
+    "client": [
+      "net.mod5q12.concrete.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "concrete_5q12.mixins.json"
+  ]
+}

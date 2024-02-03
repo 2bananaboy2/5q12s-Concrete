@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mod5q12.concrete.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"Concrete5q12ModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
